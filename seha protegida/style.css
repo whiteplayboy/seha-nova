@@ -2,11 +2,11 @@
 
 
 :root{
-    --cor-da-letra:rgb(117, 10, 10);
+    --cor-da-letra:rgb(204, 190, 190);
     --cor-da-fundo:#0a6eda;
-    --fundo-senha:#1fb402;
+    --fundo-senha:#474446;
     --fundo-texto:#141fbb;
-    --borda:#e72207;
+    --borda:#052069;
     --font: "Bebas Neue", sans-serif;
 }
 
@@ -21,7 +21,7 @@ body{
 
  }
 .titulo-princiapal{
-        font-size: 67px;
+        font-size: 20px;
         font-family: var(--fonte2);
  }
 .titulo-secundario{
@@ -31,15 +31,44 @@ body{
      text-align: center;
      margin-top: 9px;
  }
-.conteudo-senha{
-    margin-top: 23px;
-    background: var(--fundo-senha);
-    padding: 40px
-    border-bottom: 40px solid var(--borda);
+ .conteudo-senha{
+     margin-top: 20px;
+      background-color: var(--fundo-senha);
+        border-radius: 35px;
+          padding: 5px;
+            border-bottom: 5px solid var(--borda);
+              font-size: 60px;
+    }
+    
+    #campo-senha{
+         background-color: var(--cor-da-letra);
+          color: var(--cor-do-titulo);
+           width: 80%;
+            font-size: 40px;
+              border-radius: 38px;
+    }
+    
+    #campo-senha:focus{
+        outline:none;
+          background-color: var(--fundo-campo);
+    }
+    
+    .parametro{
+        font-family: var(--fonte2);
+           font-size: 15px;
+    }
+    .conteudo{   
+          width: 1200px;
+            margin: 0 auto;
+} 
+
+.parametro{
+    background-color:var(--fundo-texto);
+    border: 6px solid var(--borda);
+    margin-top:120px;
+    padding: 20px;
 }
-campo-senha{
-    background-color: var(--fundo-senha);
-    border: none
-    color:var(--letra);
-    width:70%;
+.parametro-titulo{
+    font-family: var(--font2);
+    font-size: 28px;
 }
