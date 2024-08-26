@@ -81,3 +81,56 @@ margin: 0% auto;
   flex-direction: row;
   justify-content: center;
 }
+.parametro-senha-botoes{
+display: flex;
+justify-content: center;
+
+}
+.parametro-senha-texto{
+padding: 5px;
+border-top: px solid var(--borda);
+border-bottom: px solid var(--borda);
+margin:0;
+
+
+}
+.parametro-senha-botao{
+background-color: var(--fundo-texto);
+color: rgb(233, 25, 25);
+border-bottom: 2px solid var(--borda);
+padding: 5px;
+font-size: 14px ;
+cursor: pointer;
+
+}
+.label{
+font-size: 10px;
+
+
+}
+.checkbox{
+cursor: pointer;
+width: 20px;
+height: 20px;
+
+
+}
+.barra{
+background-color: rgb(175, 12, 26);
+height: 20px;
+width: 100%;
+
+}
+.fraco{
+height: 20px;
+width: 10%;
+background-color: rgb(172, 127, 3);
+position: relative;
+bottom: 20px;
+
+}
+
+.parametro-senha-textos{
+display: flex;
+justify-content: space-between;
+}
