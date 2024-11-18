@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+:root{
+    --cor-da-letra:rgb(204, 190, 190);
+    --cor-da-fundo:#0a6eda;
+    --fundo-senha:#474446;
+    --fundo-texto:#141fbb;
+    --borda:#052069;
+    --font: "Bebas Neue", sans-serif;
+}
+
+body{
+    color:var(--cor-da-letra);
+    background-color: var(--cor-da-fundo);
+    font-family: var(--fonte);
+ }
+.conteudo{
+        text-align: center;
+        font-size: 100%;
+
+ }
+.titulo-princiapal{
+        font-size: 20px;
+        font-family: var(--fonte2);
+ }
+.titulo-secundario{
+        font-size: 34px;
+ }
+ .conteudo-titulo{
+     text-align: center;
+     margin-top: 9px;
+ }
+ .conteudo-senha{
+     margin-top: 20px;
+      background-color: var(--fundo-senha);
+        border-radius: 35px;
+          padding: 5px;
+            border-bottom: 5px solid var(--borda);
+              font-size: 60px;
+    }
+    
+    #campo-senha{
+         background-color: var(--cor-da-letra);
+          color: var(--cor-do-titulo);
+           width: 80%;
+            font-size: 40px;
+              border-radius: 38px;
+    }
+    
+    #campo-senha:focus{
+        outline:none;
+          background-color: var(--fundo-campo);
+    }
+    
+    .parametro{
+        font-family: var(--fonte2);
+           font-size: 15px;
+    }
+    .conteudo{   
+          width: 1200px;
+            margin: 0 auto;
+} 
+
+.parametro{
+    background-color:var(--fundo-texto);
+    border: 6px solid var(--borda);
+    margin-top:120px;
+    padding: 20px;
+}
+.parametro-titulo{
+    font-family: var(--font2);
+    font-size: 28px;
+}
+.parametro-senha{
+  width: 40%;
+margin: 0% auto;
+}
+.parametro-coluna-senha{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.parametro-senha-botoes{
+display: flex;
+justify-content: center;
+
+}
+.parametro-senha-texto{
+padding: 5px;
+border-top: px solid var(--borda);
+border-bottom: px solid var(--borda);
+margin:0;
+
+
+}
+.parametro-senha-botao{
+background-color: var(--fundo-texto);
+color: rgb(233, 25, 25);
+border-bottom: 2px solid var(--borda);
+padding: 5px;
+font-size: 14px ;
+cursor: pointer;
+
+}
+.label{
+font-size: 10px;
+
+
+}
+.checkbox{
+cursor: pointer;
+width: 20px;
+height: 20px;
+
+
+}
+.barra{
+background-color: rgb(175, 12, 26);
+height: 20px;
+width: 100%;
+
+}
+.fraco{
+height: 20px;
+width: 10%;
+background-color: rgb(172, 127, 3);
+position: relative;
+bottom: 20px;
+
+}
+
+.parametro-senha-textos{
+display: flex;
+justify-content: space-between;
+}
